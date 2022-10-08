@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import "./sponsors.css";
 import logo from "../../images/reva_logo.png";
 import mlh from "../../images/mlh-logo.png";
@@ -18,11 +20,21 @@ export default class Sponsors extends Component {
         className="sponsors-main d-flex align-items-center justify-content-center"
       >
         <Container>
-          <Container className="track-heading-container">
-            <div data-aos="slide-up" className="track-heading-div">
-              <h1 className="sponsors-heading">SPONSORS</h1>
+          <Container className="title-container">
+            <Row data-aos="slide-up">
+              <Col lg="2">
+                <h1 className="sponsors-heading">SPONSORS</h1>
+              </Col>
+              <Col xs lg="10">
+                <img src={bg} alt="" width="100%" />
+              </Col>
+            </Row>
+            {/* <div data-aos="slide-up" className="track-heading-div">
+              <h1 id="header-titles" className="sponsors-heading">
+                SPONSORS
+              </h1>
               <img className="track-img" src={bg} width={"100%"} alt="" />
-            </div>
+            </div> */}
           </Container>
           <Container data-aos="slide-up" className="sponsers d-flex flex-wrap">
             <Container>

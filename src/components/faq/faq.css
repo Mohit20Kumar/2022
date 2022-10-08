@@ -6,15 +6,15 @@
 }
 
 .faq-heading {
-  position: absolute;
+  /* position: absolute; */
   text-align: center;
-  top: 2rem;
+  /* top: 2rem; */
   /* right: 3.5rem; */
   /* left: 2.5rem; */
   font-weight: 1000;
   color: rgba(83, 93, 161, 0.8);
-  width: 100%;
-  margin-left: auto;
+  /* width: 100%; */
+  /* margin-left: auto; */
 }
 
 .faq-container {
@@ -149,16 +149,16 @@
   }
 }
 
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
   .faq-heading {
     position: absolute;
     text-align: start;
     top: 2rem;
-    /* right: 3.5rem; */
+    right: 3.5rem;
     left: 2.5rem;
     font-weight: 1000;
     color: rgba(83, 93, 161, 0.8);
     width: 100%;
     margin-left: auto;
   }
-}
+} */

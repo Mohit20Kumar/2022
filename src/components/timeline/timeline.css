@@ -287,27 +287,27 @@ h2 {
 } */
 
 .timeline-heading {
-  position: absolute;
+  /* position: absolute;
   text-align: center;
-  top: 2rem;
+  top: 2rem; */
   /* left: 3rem; */
   /* right: 3.5rem; */
   font-weight: 1000;
   color: rgba(83, 93, 161, 0.8);
-  width: 100%;
-  margin-left: auto;
+  /* width: 100%;
+  margin-left: auto; */
 }
 
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
   .timeline-heading {
     position: absolute;
     text-align: end;
     top: 2rem;
     left: 3rem;
-    /* right: 3.5rem; */
+    right: 3.5rem;
     font-weight: 1000;
     color: rgba(83, 93, 161, 0.8);
     width: 100%;
     margin-left: auto;
   }
-}
+} */

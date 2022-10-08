@@ -1,5 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 import bg from "../../images/about_bg.png";
 
@@ -8,12 +10,17 @@ import "./prize.css";
 const Prizes = () => {
   return (
     <div id="prizes" className="prizes-main">
-      <Container className="track-heading-container">
-        <div data-aos="slide-up" className="track-heading-div">
-          <h1 className="prizes-heading">PRIZES</h1>
-          <img className="track-img" src={bg} width={"100%"} alt="" />
-        </div>
+      <Container className="title-container">
+        <Row data-aos="slide-up">
+          <Col lg="2">
+            <h1 className="sponsors-heading">PRIZES</h1>
+          </Col>
+          <Col xs lg="10">
+            <img src={bg} alt="" width="100%" />
+          </Col>
+        </Row>
       </Container>
+
       <Container className="prize-container">
         <Container className="prize-1">
           <div className="prize">

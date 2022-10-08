@@ -14,10 +14,9 @@ export default function BootNavbar() {
           href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=gray"
           target="_blank"
           rel="noreferrer"
-          
         >
           <img
-            src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-gray.svg"
+            src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg"
             alt="Major League Hacking 2023 Hackathon Season"
             style={{ width: "100%" }}
           />

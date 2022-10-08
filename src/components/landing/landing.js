@@ -12,7 +12,7 @@ const Landing = () => {
   }, []);
   return (
     <>
-      <div id='hero' className='landing-main'>
+      <div id="hero" className="landing-main">
         {/* <a className="atag" href='#about'>
           <div data-aos='fade-up' className='hvr-shutter-in-vertical name'>
             {" "}
@@ -21,15 +21,22 @@ const Landing = () => {
           </div>
         </a> */}
         {/* <div className='float'> */}
+<<<<<<< HEAD
+        <div className="sm-headings">
+          <h4 className="flux">48 Hours Hybrid</h4>
+          <h4 className="flux">International Hackathon</h4>
+        </div>
+=======
           <div className='sm-headings'>
             <h4 className='flux'>48 Hours Hybrid</h4>
             <h4 className='flux'>International Hackathon</h4>
           </div>
+>>>>>>> 09a3967d7e1166121bcbf79c0f8085dd0b8806d8
         {/* </div> */}
-        <h1 data-aos='fade-up' className='test'>
+        <h1 data-aos="fade-up" className="test">
           REVA HACK
         </h1>
-        <div data-aos='fade-up' className='name-2'>
+        <div data-aos="fade-up" className="name-2">
           <Typewriter
             options={{
               strings: ["Innovate For a Better Tomorrow", "The Hack Is Back"],
@@ -39,11 +46,12 @@ const Landing = () => {
           />
         </div>
         {/* After Coming soon gets over */}
-        <div data-aos='fade-up' className='main-buttons'>
+        <div data-aos="fade-up" className="main-buttons">
           <div
-            className='apply-button landing-btn'
-            data-hackathon-slug='reva-hack'
-            data-button-theme='light'></div>
+            className="apply-button landing-btn"
+            data-hackathon-slug="reva-hack"
+            data-button-theme="light"
+          ></div>
           {/* <a
             href='https://forms.gle/JizDPzoqmiB4M1Y88'
             target='_blank'
@@ -54,23 +62,24 @@ const Landing = () => {
           </a> */}
 
           <a
-            href='https://discord.gg/6Sv9ZdQ4er'
-            target='_blank'
-            rel='noreferrer'>
-            <button className='landing-btn' style={{ letterSpacing: "2px" }}>
+            href="https://discord.gg/6Sv9ZdQ4er"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="landing-btn" style={{ letterSpacing: "2px" }}>
               {" "}
               <span>Join Us On</span>
               <img
                 style={{ marginLeft: "10px" }}
-                height='40px'
-                width='40px'
+                height="40px"
+                width="40px"
                 src={discord}
-                alt=''
+                alt=""
               />
             </button>
           </a>
         </div>
-        <Timer/>
+        <Timer />
 
         <ParticleBackground />
       </div>

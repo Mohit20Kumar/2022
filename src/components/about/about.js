@@ -1,5 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import "./about.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -18,10 +20,18 @@ const About = () => {
     >
       <Container>
         <Container className="track-heading-container">
-          <div data-aos="slide-up" className="track-heading-div">
+          <Row data-aos="slide-up">
+            <Col lg="2">
+              <h1 className="about-heading">ABOUT</h1>
+            </Col>
+            <Col xs lg="10">
+              <img src={bg} alt="" width="100%" />
+            </Col>
+          </Row>
+          {/* <div data-aos="slide-up" className="track-heading-div">
             <h1 className="about-heading">ABOUT</h1>
             <img className="track-img" src={bg} width={"100%"} alt="" />
-          </div>
+          </div> */}
         </Container>
         <Container>
           <div className="paragraph">
