@@ -21,17 +21,11 @@ const Landing = () => {
           </div>
         </a> */}
         {/* <div className='float'> */}
-<<<<<<< HEAD
+
         <div className="sm-headings">
           <h4 className="flux">48 Hours Hybrid</h4>
           <h4 className="flux">International Hackathon</h4>
         </div>
-=======
-          <div className='sm-headings'>
-            <h4 className='flux'>48 Hours Hybrid</h4>
-            <h4 className='flux'>International Hackathon</h4>
-          </div>
->>>>>>> 09a3967d7e1166121bcbf79c0f8085dd0b8806d8
         {/* </div> */}
         <h1 data-aos="fade-up" className="test">
           REVA HACK
