@@ -6,7 +6,7 @@ import "./crew.css"
 import Container from "react-bootstrap/Container";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
+// import ph from "../../images/placeholder.jpg"
 import bg from "../../images/tracks_bg.png";
 
 
@@ -29,42 +29,43 @@ const Crew = () => {
       </Container>
       <Container>
                 {/* PUT YOUR CONTENT HERE */}
-                <Carousel activeIndex={index} onSelect={handleSelect}>
+                <br /> <br />
+                <Carousel activeIndex={index} onSelect={handleSelect} variant = "dark">
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+          src="https://repository-images.githubusercontent.com/279611541/b7e1e580-c611-11ea-9b24-523c65baea0e"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.
+          <h3>Team1</h3>
+          <p>Info about Team1
           </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+          src="https://repository-images.githubusercontent.com/279611541/b7e1e580-c611-11ea-9b24-523c65baea0e"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Team2</h3>
+          <p>Info about Team2</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+          src="https://repository-images.githubusercontent.com/279611541/b7e1e580-c611-11ea-9b24-523c65baea0e"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Team3</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Info about Team3
           </p>
         </Carousel.Caption>
       </Carousel.Item>
