@@ -11,6 +11,13 @@
   position: relative;
 }
 
+.theme-image {
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  float: none;
+}
+
 .line {
   position: absolute;
 }

@@ -12,13 +12,20 @@
   position: relative;
 }
 
+.tracks-image {
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  float: none;
+}
+
 .title-container-tracks {
   margin-top: 2rem !important;
 }
 
 .track-heading {
   /* position: absolute; */
-  /* text-align: center; */
+  text-align: end;
   /* top: 2rem; */
   /* right: 3.5rem; */
   /* left: 1rem; */

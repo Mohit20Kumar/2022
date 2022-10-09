@@ -14,11 +14,11 @@ export default class TimeLine extends Component {
       >
         <Container>
           <Row className="title-container">
-            <Col xs lg="10">
-              <img src={bg} alt="" width="100%" />
-            </Col>
             <Col lg="2">
               <h1 className="timeline-heading">TIMELINE</h1>
+            </Col>
+            <Col xs lg="10">
+              <img className="timeline-image" src={bg} alt="" width="100%" />
             </Col>
           </Row>
           {/* <div data-aos="slide-up" className="track-heading-div">
