@@ -42,7 +42,7 @@ const Crew = () => {
           <img className="track-img" src={bg} width={"100%"} alt="" />
         </div> */}
       </Container>
-      <Container>
+      <Container data-aos="fade-up">
                 <br /> <br />
       <Carousel activeIndex={index} onSelect={handleSelect} indicators = {false}>
       <Carousel.Item>
@@ -85,6 +85,7 @@ const Crew = () => {
           className="d-block w-100"
           src={curation}
           alt="Curation Crew"
+
         /></Carousel.Item>
         <Carousel.Item>
         <img

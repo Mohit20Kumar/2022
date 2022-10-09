@@ -38,7 +38,7 @@ const About = () => {
             <h5 data-aos="slide-up">
               REVA HACK is an annual tech and innovation fest organized by The
               Hackathon Club at REVA University, the yearly event has only seen
-              growth year over year since its inception in 2017. Once started as
+              growth year over year since its inception in 2016. Once started as
               a university-wide event, REVA HACK now sees participants from all
               over the world showcasing their creativity and displaying their
               drive to innovate.

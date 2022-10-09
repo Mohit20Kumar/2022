@@ -58,7 +58,7 @@ export default class TimeLine extends Component {
                   {/* <div class="timeline__event__title">Lorem Ipsum</div> */}
                   <div class="timeline__event__description">
                     <p>
-                      {" <1st Segment of Submission />"}
+                      {" < 1st Segment of Submission />"}
                       <br />
                     </p>
                   </div>

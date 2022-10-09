@@ -49,7 +49,7 @@ const FAQ = () => {
           <img className="track-img" src={bg} width={"100%"} alt="" />
         </div>
       </Container> */}
-      <div className="accordion" data-aos="slide-up">
+      <div className="accordion" data-aos="fade-up">
         {data.map((item, i) => (
           <div className="item">
             <div className="title" onClick={() => toggle(i)}>
