@@ -6,7 +6,14 @@ import "./crew.css"
 import Container from "react-bootstrap/Container";
 import Aos from "aos";
 import "aos/dist/aos.css";
-// import ph from "../../images/placeholder.jpg"
+import curation from "../../images/crew/Curation.png";
+import design from "../../images/crew/Design.png";
+import marketing from "../../images/crew/Marketing.png";
+import oc from "../../images/crew/OC.png";
+import organizers from "../../images/crew/organizers.png";
+import query from "../../images/crew/Query.png";
+import sponsor from "../../images/crew/Sponsor.png";
+import technical from "../../images/crew/Technical.png";
 import bg from "../../images/tracks_bg.png";
 
 
@@ -28,47 +35,61 @@ const Crew = () => {
         </div>
       </Container>
       <Container>
-                {/* PUT YOUR CONTENT HERE */}
                 <br /> <br />
-                <Carousel activeIndex={index} onSelect={handleSelect} variant = "dark">
+      <Carousel activeIndex={index} onSelect={handleSelect} indicators = {false}>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://repository-images.githubusercontent.com/279611541/b7e1e580-c611-11ea-9b24-523c65baea0e"
-          alt="First slide"
+          src={organizers}
+          alt="Student Organizers"
         />
-        <Carousel.Caption>
-          <h3>Team1</h3>
-          <p>Info about Team1
-          </p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://repository-images.githubusercontent.com/279611541/b7e1e580-c611-11ea-9b24-523c65baea0e"
-          alt="Second slide"
+          src={oc}
+          alt="Professor Organizers"
         />
-
-        <Carousel.Caption>
-          <h3>Team2</h3>
-          <p>Info about Team2</p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://repository-images.githubusercontent.com/279611541/b7e1e580-c611-11ea-9b24-523c65baea0e"
-          alt="Third slide"
+          src={technical}
+          alt="Technical Crew"
         />
-
-        <Carousel.Caption>
-          <h3>Team3</h3>
-          <p>
-            Info about Team3
-          </p>
-        </Carousel.Caption>
+        </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={sponsor}
+          alt="Sponsorship Crew"
+        />
       </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={design}
+          alt="Design Crew"
+        />
+        </Carousel.Item>
+        <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={curation}
+          alt="Curation Crew"
+        /></Carousel.Item>
+        <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={query}
+          alt="Query Management Crew"
+        /></Carousel.Item>
+        <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={marketing}
+          alt="Marketing Crew"
+        /></Carousel.Item>
     </Carousel>
       </Container>
         </div>
