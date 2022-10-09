@@ -31,10 +31,10 @@ const Crew = () => {
     <div id="crew" className="crew-main">
       <Container className="track-heading-container">
         <Row data-aos="slide-up" className="title-container-tracks">
-          <Col lg="2">
+          <Col lg="1">
             <h1 className="track-heading">CREW</h1>
           </Col>
-          <Col xs lg="10">
+          <Col xs lg="11">
             <img className="tracks-image" src={bg} alt="" width="100%" />
           </Col>
         </Row>
