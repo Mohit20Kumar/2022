@@ -36,7 +36,7 @@ export default class Sponsors extends Component {
               <img className="track-img" src={bg} width={"100%"} alt="" />
             </div> */}
           </Container>
-          <Container data-aos="slide-up" className="sponsers d-flex flex-wrap">
+          <Container data-aos="fade-up" className="sponsers d-flex flex-wrap">
             <Container>
               <div>
                 <h3 className="sponser-title">Title Sponsors</h3>
