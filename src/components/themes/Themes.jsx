@@ -12,21 +12,15 @@ const Themes = () => {
     <div className="themes-main">
       <Container className="track-heading-container">
         <Row data-aos="slide-up">
+          <Col xs lg="10">
+            <img className="theme-image" src={bg} alt="" width="100%" />
+          </Col>
           <Col lg="2">
             <h1 className="themes-heading">THEMES</h1>
-          </Col>
-          <Col xs lg="10">
-            <img src={bg} alt="" width="100%" />
           </Col>
         </Row>
       </Container>
 
-      {/* <Container>
-        <div data-aos="slide-up" className="track-heading-div">
-          
-          <img className="track-img" src={bg} width={"100%"} alt="" />
-        </div> */}
-      {/* </Container> */}
       <Container data-aos="fade-up" className="prize-container">
         {/* <Container className="prize-1"> */}
         <Container className="themes">

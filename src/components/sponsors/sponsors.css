@@ -10,6 +10,13 @@
   margin-bottom: 2rem;
 }
 
+.sponsor-image {
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  float: none;
+}
+
 .sponsors-container {
   position: absolute;
   left: 50%;

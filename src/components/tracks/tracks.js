@@ -20,11 +20,11 @@ const Tracks = () => {
     <div id="tracks" className="track-main">
       <Container>
         <Row data-aos="slide-up" className="title-container-tracks">
-          <Col xs lg="10">
-            <img src={bg} alt="" width="100%" />
-          </Col>
           <Col lg="2">
             <h1 className="track-heading">TRACKS</h1>
+          </Col>
+          <Col xs lg="10">
+            <img className="tracks-image" src={bg} alt="" width="100%" />
           </Col>
         </Row>
         {/* <div data-aos="slide-up" className="track-heading-div">
