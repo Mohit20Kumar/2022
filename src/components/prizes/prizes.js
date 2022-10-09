@@ -12,11 +12,11 @@ const Prizes = () => {
     <div id="prizes" className="prizes-main">
       <Container className="title-container">
         <Row data-aos="slide-up">
+          <Col xs lg="10">
+            <img className="prize-image" src={bg} alt="" width="100%" />
+          </Col>
           <Col lg="2">
             <h1 className="sponsors-heading">PRIZES</h1>
-          </Col>
-          <Col xs lg="10">
-            <img src={bg} alt="" width="100%" />
           </Col>
         </Row>
       </Container>

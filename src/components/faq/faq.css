@@ -5,9 +5,16 @@
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
 }
 
+.faq-image {
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  float: none;
+}
+
 .faq-heading {
   /* position: absolute; */
-  text-align: center;
+  /* text-align: center; */
   /* top: 2rem; */
   /* right: 3.5rem; */
   /* left: 2.5rem; */

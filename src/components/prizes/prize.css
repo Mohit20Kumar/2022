@@ -11,6 +11,13 @@
   position: relative;
 }
 
+.prize-image {
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  float: none;
+}
+
 .prizes-heading {
   position: absolute;
   text-align: center;
