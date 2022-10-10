@@ -19,4 +19,25 @@
   filter: FlipH;
   -ms-filter: "FlipH";
   float: none;
+  width: 80%;
 }
+
+.carousel-item img {
+  object-fit: cover;
+  margin: auto;
+}
+
+.carousel-inner {
+  width: 60% !important;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
+/* .yoyo > img {
+  object-fit: cover;
+  object-position: center;
+  height: 80vh;
+  margin: auto;
+  overflow: hidden;
+} */
