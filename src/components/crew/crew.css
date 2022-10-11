@@ -22,24 +22,14 @@
   width: 80%;
 }
 
-@media only screen and (min-width: 992px) {
-  .carousel-item img {
-    object-fit: cover;
-    margin: auto;
-  }
-
-  .carousel-inner {
-    width: 60% !important;
-    margin: auto;
-    align-items: center;
-    text-align: center;
-  }
+.carousel-item img {
+  object-fit: cover;
+  margin: auto;
 }
 
-/* .yoyo > img {
-  object-fit: cover;
-  object-position: center;
-  height: 80vh;
+.carousel-inner {
+  width: 60% !important;
   margin: auto;
-  overflow: hidden;
-} */
+  align-items: center;
+  text-align: center;
+}

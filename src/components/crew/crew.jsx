@@ -8,6 +8,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Aos from "aos";
 import "aos/dist/aos.css";
+
 import curation from "../../images/crew/Curation.png";
 import design from "../../images/crew/Design.png";
 import marketing from "../../images/crew/Marketing.png";
@@ -16,6 +17,7 @@ import organizers from "../../images/crew/organizers.png";
 import query from "../../images/crew/Query.png";
 import sponsor from "../../images/crew/Sponsor.png";
 import technical from "../../images/crew/Technical.png";
+
 import bg from "../../images/tracks_bg.png";
 
 const Crew = () => {
