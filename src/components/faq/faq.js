@@ -29,10 +29,10 @@ const FAQ = () => {
     <div id="faq" className="faq-main">
       <Container className="title-container">
         <Row data-aos="slide-up">
-          <Col xs lg="10">
+          <Col xs lg="11">
             <img className="faq-image" src={bg} alt="" width="100%" />
           </Col>
-          <Col lg="2">
+          <Col lg="1">
             <h1 className="faq-heading">FAQ</h1>
           </Col>
         </Row>

@@ -19,6 +19,21 @@
   filter: FlipH;
   -ms-filter: "FlipH";
   float: none;
+  width: 80%;
+}
+
+@media only screen and (min-width: 992px) {
+  .carousel-item img {
+    object-fit: cover;
+    margin: auto;
+  }
+
+  .carousel-inner {
+    width: 60% !important;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 /* .yoyo > img {
