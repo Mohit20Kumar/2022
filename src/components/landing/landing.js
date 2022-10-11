@@ -5,6 +5,7 @@ import ParticleBackground from "../../particleBackground";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import discord from "../../images/dc.png";
+import devfolio from "../../images/devfolio_logo.png";
 import Timer from "../timer/timer";
 const Landing = () => {
   useEffect(() => {
@@ -54,6 +55,22 @@ const Landing = () => {
               Pre Register Now
             </button>
           </a> */}
+          <a
+            href="https://reva-hack.devfolio.co/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="discord-btn" style={{ letterSpacing: "2px" }}>
+              <span>Apply on Devfolio</span>
+              <img
+                style={{ marginLeft: "10px" }}
+                height="30px"
+                width="30px"
+                src={devfolio}
+                alt=""
+              />
+            </button>
+          </a>
 
           <a
             href="https://discord.gg/6Sv9ZdQ4er"

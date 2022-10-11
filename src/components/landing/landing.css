@@ -123,6 +123,11 @@
   justify-content: space-around;
 }
 
+.discord-btn {
+  width: 20rem !important;
+  background-color: #2356ff !important;
+}
+
 .main-buttons button {
   font-size: 15px;
   font-weight: bold;
