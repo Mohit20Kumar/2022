@@ -5,12 +5,21 @@ import ParticleBackground from "../../particleBackground";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import discord from "../../images/dc.png";
-import devfolio from "../../images/devfolio_logo.png";
+// import devfolio from "../../images/devfolio_logo.png";
 import Timer from "../timer/timer";
 const Landing = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
   }, []);
+
   return (
     <>
       <div id="hero" className="landing-main">
@@ -42,13 +51,13 @@ const Landing = () => {
         </div>
         {/* After Coming soon gets over */}
         <div data-aos="fade-up" className="main-buttons">
-          {/* <div
+          <div
             className="apply-button landing-btn"
             data-hackathon-slug="reva-hack"
             data-button-theme="light"
-          ></div> */}
+          ></div>
 
-          <a
+          {/* <a
             href="https://reva-hack.devfolio.co/"
             target="_blank"
             rel="noreferrer"
@@ -63,7 +72,7 @@ const Landing = () => {
                 alt=""
               />
             </button>
-          </a>
+          </a> */}
 
           <a
             href="https://discord.gg/6Sv9ZdQ4er"

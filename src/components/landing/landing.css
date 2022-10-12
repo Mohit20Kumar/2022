@@ -274,7 +274,7 @@
 
   .main-buttons button {
     font-size: 20px;
-    border-radius: 15px;
+    border-radius: 5px;
     width: 15rem;
     height: 3rem;
     display: flex;
