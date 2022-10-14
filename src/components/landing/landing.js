@@ -5,11 +5,21 @@ import ParticleBackground from "../../particleBackground";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import discord from "../../images/dc.png";
+// import devfolio from "../../images/devfolio_logo.png";
 import Timer from "../timer/timer";
 const Landing = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
   }, []);
+
   return (
     <>
       <div id="hero" className="landing-main">
@@ -46,12 +56,21 @@ const Landing = () => {
             data-hackathon-slug="reva-hack"
             data-button-theme="light"
           ></div>
+
           {/* <a
-            href='https://forms.gle/JizDPzoqmiB4M1Y88'
-            target='_blank'
-            rel='noreferrer'>
-            <button className='landing-btn' style={{ letterSpacing: "2px" }}>
-              Pre Register Now
+            href="https://reva-hack.devfolio.co/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="discord-btn" style={{ letterSpacing: "2px" }}>
+              <span>Apply on Devfolio</span>
+              <img
+                style={{ marginLeft: "10px" }}
+                height="30px"
+                width="30px"
+                src={devfolio}
+                alt=""
+              />
             </button>
           </a> */}
 
