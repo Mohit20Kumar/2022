@@ -12,8 +12,8 @@ export default class TimeLine extends Component {
         id="timeline"
         className="timeline-main d-flex align-items-center justify-content-center"
       >
-        <Container>
-          <Row className="title-container">
+        <Container className="title-container">
+          <Row data-aos="slide-up">
             <Col lg="2">
               <h1 className="timeline-heading">TIMELINE</h1>
             </Col>
