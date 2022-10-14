@@ -21,9 +21,9 @@ const Prizes = () => {
         </Row>
       </Container>
 
-      <Container className="prize-container">
+      <Container data-aos = "fade-up" className="prize-container">
         <Container className="prize-1">
-          <div className="prize">
+          <div className="prize" >
             <h5 className="prize-title">1st Prize</h5>
             <p className="prize-amt"> ₹ 40,000 </p>
           </div>
