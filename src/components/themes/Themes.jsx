@@ -38,6 +38,10 @@ const Themes = () => {
             <p className="themes-amt">More than Media</p>
           </div>
           <div className="theme">
+            {/* <h5 className="prize-title">More than Media</h5> */}
+            <p className="themes-amt">More than Cosmos</p>
+          </div>
+          <div className="theme">
             {/* <h5 className="prize-title">More than Metros</h5> */}
             <p className="themes-amt">Sustainable Development Goals</p>
           </div>
