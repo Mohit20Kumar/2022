@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Themes.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -7,7 +9,12 @@ import Col from "react-bootstrap/Col";
 
 import bg from "../../images/about_bg.png";
 
+import { themeData } from "../../data/themeData";
+
 const Themes = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="themes-main">
       <Container className="track-heading-container">
@@ -21,30 +28,18 @@ const Themes = () => {
         </Row>
       </Container>
 
-      <Container data-aos="fade-up" className="prize-container">
-        {/* <Container className="prize-1"> */}
+      <Container className="prize-container">
         <Container className="themes">
-          <div className="theme">
-            {/* <h5 className="prize-title">More than Meta</h5> */}
-            <p className="themes-amt">More than Meta</p>
-          </div>
-          {/* </Container> */}
-          <div className="theme">
-            {/* <h5 className="prize-title">More than Metros</h5> */}
-            <p className="themes-amt">More than Metros</p>
-          </div>
-          <div className="theme">
-            {/* <h5 className="prize-title">More than Media</h5> */}
-            <p className="themes-amt">More than Media</p>
-          </div>
-          <div className="theme">
-            {/* <h5 className="prize-title">More than Media</h5> */}
-            <p className="themes-amt">More than Cosmos</p>
-          </div>
-          <div className="theme">
-            {/* <h5 className="prize-title">More than Metros</h5> */}
-            <p className="themes-amt">Sustainable Development Goals</p>
-          </div>
+          {themeData.map((item, i) => {
+            return (
+              <div data-aos="slide-up" key={i} className="flip-card">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">{item.title}</div>
+                  <div className="flip-card-back">{item.desc}</div>
+                </div>
+              </div>
+            );
+          })}
         </Container>
       </Container>
     </div>
