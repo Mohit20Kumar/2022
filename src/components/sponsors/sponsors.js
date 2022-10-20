@@ -11,6 +11,7 @@ import devfolio from "../../images/devfolio.png";
 import solana from "../../images/Solana2.svg";
 import filecoin from "../../images/filecoin.png";
 import replit from "../../images/replit.png";
+import taskade from "../../images/taskade.png";
 
 export default class Sponsors extends Component {
   render() {
@@ -43,7 +44,7 @@ export default class Sponsors extends Component {
               </div>
               <div className="sponserContainer flex-wrap ">
                 <img src={logo} className="img" alt="Reva Logo" />
-                <img src={mlh} className="img" alt="Reva Logo" />
+                <img src={mlh} className="img" alt="MLH Logo" />
               </div>
             </Container>
             <Container>
@@ -56,14 +57,21 @@ export default class Sponsors extends Component {
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <img src={polygon} className="img" alt="Reva Logo" />
+                  <img src={polygon} className="img" alt="Polygon Logo" />
                 </a>
                 <a
                   href="https://devfolio.co/"
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <img src={devfolio} className="img" alt="Reva Logo" />
+                  <img src={devfolio} className="img" alt="Devfolio Logo" />
+                </a>
+                <a
+                  href="https://www.taskade.com/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={taskade} className="img" alt="taskade Logo" />
                 </a>
               </div>
             </Container>
