@@ -332,3 +332,9 @@
   font-family: neon;
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
 }
+
+@media only screen and (max-height: 700px) {  
+  .sm-headings h4{
+    font-size: 1rem;
+  }
+}
