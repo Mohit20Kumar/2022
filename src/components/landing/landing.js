@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 import "./landing.css";
 import Typewriter from "typewriter-effect";
 import ParticleBackground from "../../particleBackground";
@@ -9,7 +9,7 @@ import discord from "../../images/dc.png";
 import Timer from "../timer/timer";
 const Landing = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({duration: 2000});
     const script = document.createElement("script");
     script.src = "https://apply.devfolio.co/v2/sdk.js";
     script.async = true;
@@ -79,11 +79,11 @@ const Landing = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="landing-btn" style={{ letterSpacing: "2px" }}>
+            <button className="landing-btn" style={{letterSpacing: "2px"}}>
               {" "}
               <span>Join Us On</span>
               <img
-                style={{ marginLeft: "10px" }}
+                style={{marginLeft: "10px"}}
                 height="40px"
                 width="40px"
                 src={discord}
