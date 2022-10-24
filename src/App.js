@@ -9,8 +9,9 @@ import Footer from "./components/footer/footer.js";
 import TimeLine from "./components/timeline/timeline.js";
 import Themes from "./components/themes/Themes.jsx";
 import Crew from "./components/crew/crew.jsx";
+import Judges from "./components/judges/judges.js"
 
-function App() {
+function App () {
   return (
     <div>
       <BootNavbar />
@@ -22,6 +23,7 @@ function App() {
       <TimeLine />
       <Sponsors />
       <Crew />
+      <Judges />
       <FAQ />
       <Footer />
     </div>
