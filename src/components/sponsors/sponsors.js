@@ -12,6 +12,7 @@ import solana from "../../images/Solana2.svg";
 import filecoin from "../../images/filecoin.png";
 import replit from "../../images/replit.png";
 import taskade from "../../images/taskade.png";
+import xyz from "../../images/xyz.png";
 
 export default class Sponsors extends Component {
   render() {
@@ -72,6 +73,9 @@ export default class Sponsors extends Component {
                   rel="noreferrer"
                 >
                   <img src={taskade} className="img" alt="taskade Logo" />
+                </a>
+                <a href="https://gen.xyz/" target={"_blank"} rel="noreferrer">
+                  <img src={xyz} className="img" height={125} alt="xyz Logo" />
                 </a>
               </div>
             </Container>
