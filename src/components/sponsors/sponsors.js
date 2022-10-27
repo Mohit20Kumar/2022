@@ -17,6 +17,8 @@ import balsamiq from "../../images/balsamiq.png";
 import voiceflow from "../../images/voiceflow.png";
 import streamyard from "../../images/streamyard.png";
 import echo from "../../images/echo.png";
+import swift from "../../images/swift.png";
+import duolearn from "../../images/duolearn.jpg";
 
 export default class Sponsors extends Component {
   render() {
@@ -107,6 +109,13 @@ export default class Sponsors extends Component {
                 >
                   <img src={echo} className="img" alt="echo Logo" />
                 </a>
+                <a
+                  href="https://www.duolearn.tech/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={duolearn} className="img" alt="duolearn Logo" />
+                </a>
               </div>
             </Container>
             <Container>
@@ -141,6 +150,13 @@ export default class Sponsors extends Component {
                   rel="noreferrer"
                 >
                   <img src={streamyard} className="img" alt="streamyard Logo" />
+                </a>
+                <a
+                  href="https://swiftride.in/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={swift} className="img" alt="swift Logo" />
                 </a>
               </div>
             </Container>
