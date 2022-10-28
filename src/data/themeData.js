@@ -19,4 +19,8 @@ export const themeData = [
     title: "Sustainable development goals",
     desc: "Encouraging innovative solutions for a better planet",
   },
+  {
+    title: "Pandora",
+    desc: " Let your curiosity take over, Open innovation",
+  },
 ];

@@ -12,6 +12,13 @@ import solana from "../../images/Solana2.svg";
 import filecoin from "../../images/filecoin.png";
 import replit from "../../images/replit.png";
 import taskade from "../../images/taskade.png";
+import xyz from "../../images/xyz.png";
+import balsamiq from "../../images/balsamiq.png";
+import voiceflow from "../../images/voiceflow.png";
+import streamyard from "../../images/streamyard.png";
+import echo from "../../images/echo.png";
+import swift from "../../images/swift.png";
+import duolearn from "../../images/duolearn.jpg";
 
 export default class Sponsors extends Component {
   render() {
@@ -73,6 +80,42 @@ export default class Sponsors extends Component {
                 >
                   <img src={taskade} className="img" alt="taskade Logo" />
                 </a>
+                <a href="https://gen.xyz/" target={"_blank"} rel="noreferrer">
+                  <img src={xyz} className="img" height={125} alt="xyz Logo" />
+                </a>
+                <a
+                  href="https://balsamiq.com/wireframes/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={balsamiq} className="img" alt="balsamiq Logo" />
+                </a>
+                <a
+                  href="https://www.voiceflow.com/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img
+                    src={voiceflow}
+                    height={200}
+                    className="img"
+                    alt="voiceflow Logo"
+                  />
+                </a>
+                <a
+                  href="https://www.echo3d.co/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={echo} className="img" alt="echo Logo" />
+                </a>
+                <a
+                  href="https://www.duolearn.tech/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={duolearn} className="img" alt="duolearn Logo" />
+                </a>
               </div>
             </Container>
             <Container>
@@ -85,21 +128,35 @@ export default class Sponsors extends Component {
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <img src={solana} className="img" alt="Reva Logo" />
+                  <img src={solana} className="img" alt="solana Logo" />
                 </a>
                 <a
                   href="https://filecoin.io/"
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <img src={filecoin} className="img" alt="Reva Logo" />
+                  <img src={filecoin} className="img" alt="filecoin Logo" />
                 </a>
                 <a
                   href="https://replit.com/"
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <img src={replit} className="img" alt="Reva Logo" />
+                  <img src={replit} className="img" alt="replit Logo" />
+                </a>
+                <a
+                  href="https://streamyard.com/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={streamyard} className="img" alt="streamyard Logo" />
+                </a>
+                <a
+                  href="https://swiftride.in/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={swift} className="img" alt="swift Logo" />
                 </a>
               </div>
             </Container>
