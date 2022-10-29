@@ -84,6 +84,10 @@
   font-size: 35px;
 }
 
+.prize3_2 {
+  margin-top: 1.5rem;
+}
+
 @media only screen and (min-width: 992px) {
   .prizes-main {
     position: relative;
@@ -107,5 +111,9 @@
     color: rgba(83, 93, 161, 0.8);
     width: 100%;
     margin-left: auto;
+  }
+
+  .prize3_2 {
+    margin-top: 0rem;
   }
 }

@@ -19,6 +19,7 @@ import streamyard from "../../images/streamyard.png";
 import echo from "../../images/echo.png";
 import swift from "../../images/swift.png";
 import duolearn from "../../images/duolearn.jpg";
+import digital from "../../images/digital.png";
 
 export default class Sponsors extends Component {
   render() {
@@ -115,6 +116,13 @@ export default class Sponsors extends Component {
                   rel="noreferrer"
                 >
                   <img src={duolearn} className="img" alt="duolearn Logo" />
+                </a>
+                <a
+                  href="https://www.digitalocean.com/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={digital} className="img" alt="Digital Ocean Logo" />
                 </a>
               </div>
             </Container>

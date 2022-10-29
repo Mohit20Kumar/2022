@@ -43,7 +43,7 @@ const Prizes = () => {
             <h5 className="prize-title">Best Female Team</h5>
             <p className="prize-amt"> ₹ 5,000 </p>
           </div>
-          <div className="prize prize3">
+          <div className="prize prize3 prize3_2">
             <h5 className="prize-title">Best Virtual Team</h5>
             <p className="prize-amt"> ₹ 5,000 </p>
           </div>
