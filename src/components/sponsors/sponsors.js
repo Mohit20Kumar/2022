@@ -20,6 +20,7 @@ import echo from "../../images/echo.png";
 import swift from "../../images/swift.png";
 import duolearn from "../../images/duolearn.jpg";
 import digital from "../../images/digital.png";
+import cakeview from "../../images/cakeview.png";
 
 export default class Sponsors extends Component {
   render() {
@@ -123,6 +124,13 @@ export default class Sponsors extends Component {
                   rel="noreferrer"
                 >
                   <img src={digital} className="img" alt="Digital Ocean Logo" />
+                </a>
+                <a
+                  href="https://www.interviewcake.com/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={cakeview} className="img" alt="Cake View Logo" />
                 </a>
               </div>
             </Container>
