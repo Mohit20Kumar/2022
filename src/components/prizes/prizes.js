@@ -22,6 +22,10 @@ const Prizes = () => {
       </Container>
 
       <Container data-aos="fade-up" className="prize-container">
+        <Container className=" prize-tag ">
+          <h4> Total Prize Pool of </h4>
+          <h4 className="flux">INR 5,00,00,000+</h4>
+        </Container>
         <Container className="prize-1">
           <div className="prize">
             <h5 className="prize-title">1st Prize</h5>

@@ -88,6 +88,20 @@
   margin-top: 1.5rem;
 }
 
+.prize-tag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.flux {
+  color: #426dfb;
+  font-size: 2.5rem;
+  text-shadow: 0 0 3vw #2356ff;
+}
+
 @media only screen and (min-width: 992px) {
   .prizes-main {
     position: relative;
