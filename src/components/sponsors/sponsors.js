@@ -18,7 +18,7 @@ import voiceflow from "../../images/voiceflow.png";
 import streamyard from "../../images/streamyard.png";
 import echo from "../../images/echo.png";
 import swift from "../../images/swift.png";
-import duolearn from "../../images/duolearn.jpg";
+import duolearn from "../../images/duolearn.png";
 import digital from "../../images/digital.png";
 import cakeview from "../../images/cakeview.png";
 
