@@ -21,6 +21,7 @@ import swift from "../../images/swift.png";
 import duolearn from "../../images/duolearn.png";
 import digital from "../../images/digital.png";
 import cakeview from "../../images/cakeview.png";
+import campalin from "../../images/campalin.png";
 
 export default class Sponsors extends Component {
   render() {
@@ -131,6 +132,13 @@ export default class Sponsors extends Component {
                   rel="noreferrer"
                 >
                   <img src={cakeview} className="img" alt="Cake View Logo" />
+                </a>
+                <a
+                  href="https://www.campanile.com/en-us/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={campalin} className="img" alt="campaline Logo" />
                 </a>
               </div>
             </Container>
