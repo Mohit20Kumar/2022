@@ -26,35 +26,24 @@ const FAQ = () => {
   }, []);
 
   return (
-    <div id="faq" className="faq-main">
-      <Container className="title-container">
-        <Row data-aos="slide-up">
-          <Col xs lg="11">
-            <img className="faq-image" src={bg} alt="" width="100%" />
+    <div id='faq' className='faq-main'>
+      <Container className='title-container'>
+        <Row data-aos='slide-up'>
+          <Col xs lg='11'>
+            <img className='faq-image' src={bg} alt='' width='100%' />
           </Col>
-          <Col lg="1">
-            <h1 className="faq-heading">FAQ</h1>
+          <Col lg='1'>
+            <h1 className='faq-heading'>FAQ</h1>
           </Col>
         </Row>
-        {/* <div data-aos="slide-up" className="track-heading-div">
-              <h1 id="header-titles" className="sponsors-heading">
-                SPONSORS
-              </h1>
-              <img className="track-img" src={bg} width={"100%"} alt="" />
-            </div> */}
       </Container>
-      {/* <Container className="track-heading-container">
-        <div data-aos="slide-up" className="track-heading-div">
-          <h1 className="faq-heading">FAQ</h1>
-          <img className="track-img" src={bg} width={"100%"} alt="" />
-        </div>
-      </Container> */}
-      <div className="accordion" data-aos="fade-up">
+
+      <div className='accordion' data-aos='fade-up'>
         {data.map((item, i) => (
-          <div className="item">
-            <div className="title" onClick={() => toggle(i)}>
-              <h5 className="faq">{item.faq}</h5>
-              <span className="ans">{selected === i ? "-" : "+"}</span>
+          <div className='item'>
+            <div className='title' onClick={() => toggle(i)}>
+              <h5 className='faq'>{item.faq}</h5>
+              <span className='ans'>{selected === i ? "-" : "+"}</span>
             </div>
 
             <div className={selected === i ? "content show" : "content"}>

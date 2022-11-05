@@ -30,73 +30,72 @@ const Crew = () => {
     Aos.init({ duration: 2000000 });
   }, []);
   return (
-    <div id="crew" className="crew-main">
-      <Container className="track-heading-container">
-        <Row data-aos="slide-up" className="title-container-tracks">
-          <Col lg="1">
-            <h1 className="track-heading">CREW</h1>
+    <div id='crew' className='crew-main'>
+      <Container className='track-heading-container'>
+        <Row data-aos='slide-up' className='title-container-tracks'>
+          <Col lg='1'>
+            <h1 className='track-heading'>CREW</h1>
           </Col>
-          <Col xs lg="11">
-            <img className="tracks-image" src={bg} alt="" width="100%" />
+          <Col xs lg='11'>
+            <img className='tracks-image' src={bg} alt='' width='100%' />
           </Col>
         </Row>
         {/* <div data-aos="slide-up" className="track-heading-div">
           <img className="track-img" src={bg} width={"100%"} alt="" />
         </div> */}
       </Container>
-      <Container className="carousel-container" data-aos="fade-up">
+      <Container className='carousel-container' data-aos='fade-up'>
         <br /> <br />
         <Carousel
           activeIndex={index}
           onSelect={handleSelect}
-          indicators={false}
-        >
+          indicators={false}>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className='d-block w-100'
               src={organizers}
-              alt="Student Organizers"
+              alt='Student Organizers'
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className='d-block w-100'
               src={oc}
-              alt="Professor Organizers"
+              alt='Professor Organizers'
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className='d-block w-100'
               src={technical}
-              alt="Technical Crew"
+              alt='Technical Crew'
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className='d-block w-100'
               src={sponsor}
-              alt="Sponsorship Crew"
+              alt='Sponsorship Crew'
             />
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-100" src={design} alt="Design Crew" />
+            <img className='d-block w-100' src={design} alt='Design Crew' />
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-100" src={curation} alt="Curation Crew" />
+            <img className='d-block w-100' src={curation} alt='Curation Crew' />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className='d-block w-100'
               src={query}
-              alt="Query Management Crew"
+              alt='Query Management Crew'
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className='d-block w-100'
               src={marketing}
-              alt="Marketing Crew"
+              alt='Marketing Crew'
             />
           </Carousel.Item>
         </Carousel>

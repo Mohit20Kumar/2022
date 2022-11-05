@@ -9,6 +9,8 @@ import Footer from "./components/footer/footer.js";
 import TimeLine from "./components/timeline/timeline.js";
 import Themes from "./components/themes/Themes.jsx";
 import Crew from "./components/crew/crew.jsx";
+import Speakers from "./components/speakers/speakers.js";
+import Judges from "./components/judges/judges.js";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Prizes />
       <TimeLine />
       <Sponsors />
+      {/* <Speakers /> */}
+      {/* <Judges /> */}
       <Crew />
       <FAQ />
       <Footer />
