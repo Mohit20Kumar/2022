@@ -134,7 +134,7 @@ export default class Sponsors extends Component {
                   <img src={cakeview} className="img" alt="Cake View Logo" />
                 </a>
                 <a
-                  href="https://www.campanile.com/en-us/"
+                  href="https://campalin.com/"
                   target={"_blank"}
                   rel="noreferrer"
                 >
