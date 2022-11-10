@@ -8,7 +8,7 @@ const Timer = () => {
   const DAY = 24 * HOUR;
 
   setInterval(() => {
-    let diff = Date.parse("Nov 11, 2022 11:00:00") - Date.now();
+    let diff = Date.parse("Nov 11, 2022 12:00:00") - Date.now();
     const days = Math.floor(diff / DAY);
     diff -= days * DAY;
     const hours = Math.floor(diff / HOUR);
