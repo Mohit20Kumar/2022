@@ -1,91 +1,112 @@
-#timer {
-    font-size: 3em;
-    font-weight: 100;
-    text-align: center;
-        padding: 0px;
-    color: #daf6ff;
-    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
-    width: 700px;
-    /* color: white; */
+.inactive {
+  visibility: hidden;
+  opacity: 0;
+  display: block;
+}
+.hidden {
+  visibility: hidden;
+}
+.active {
+  visibility: visible;
+  opacity: 1;
+  transition: 2s;
+  transition-timing-function: ease-in;
+}
+.active h1 {
+  color: #daf6ff;
+  font-size: 5em;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+}
 
+#timer {
+  font-size: 3em;
+  font-weight: 100;
+  text-align: center;
+  padding: 0px;
+  color: #daf6ff;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+  width: 700px;
+  /* color: white; */
 }
 
 #timer div {
+  display: inline-block;
+  min-width: 90px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+#timer div span {
+  color: #daf6ff;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+  display: block;
+  margin-top: 15px;
+  font-size: 0.35em;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  #timer {
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+    /* font-weight: 100; */
+    text-align: center;
+    color: #daf6ff;
+    text-shadow: 0 0 10px rgba(10, 175, 230, 1), 0 0 10px rgba(10, 175, 230, 0);
+    width: fit-content;
+
+    /* color: white; */
+  }
+  #timer div {
     display: inline-block;
+    /* min-width: 90px; */
+    /* background: #020b43; */
+    /* border: 2px solid #daf6ff; */
+    /* box-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0); */
+    margin: 0px;
+    padding: 0px;
+  }
+  #timer div span {
+    color: #daf6ff;
+    text-shadow: 0 0 10px rgba(10, 175, 230, 1), 0 0 10px rgba(10, 175, 230, 0);
+    display: block;
+    margin-top: 0px;
+    font-size: 0.35em;
+    font-weight: 100;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #timer {
+    font-size: 3.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 100;
+    text-align: center;
+    padding: 0px;
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+    width: 700px;
+    /* color: white; */
+  }
+
+  #timer div {
+    /* display: flex; */
+    /* flex-direction: row; */
     min-width: 90px;
     padding: 10px;
     border-radius: 10px;
     margin: 15px;
-}
+  }
 
-#timer div span {
+  #timer div span {
     color: #daf6ff;
-    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);    display: block;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+    display: block;
     margin-top: 15px;
-    font-size: .35em;
+    font-size: 0.35em;
     font-weight: 400;
+  }
 }
-
-@media only screen and (max-width: 600px) {
-    #timer {
-        display: flex;
-        flex-direction: row;
-        font-size: 2em;
-        /* font-weight: 100; */
-        text-align: center;
-        color: #daf6ff;
-        text-shadow: 0 0 10px rgba(10, 175, 230, 1),  0 0 10px rgba(10, 175, 230, 0);
-        width: fit-content;
-
-        /* color: white; */
-    }
-    #timer div {
-        display: inline-block;
-        /* min-width: 90px; */
-        /* background: #020b43; */
-        /* border: 2px solid #daf6ff; */
-        /* box-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0); */
-        margin: 0px;
-        padding: 0px;
-    }
-    #timer div span {
-        color: #daf6ff;
-        text-shadow: 0 0 10px rgba(10, 175, 230, 1),  0 0 10px rgba(10, 175, 230, 0);    display: block;
-        margin-top: 0px;
-        font-size: .35em;
-        font-weight: 100;
-    }
-  }
-  @media only screen and (min-width: 992px) {
-    #timer {
-        font-size: 3.5em;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        font-weight: 100;
-        text-align: center;
-            padding: 0px;
-        color: #daf6ff;
-        text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
-        width: 700px;
-        /* color: white; */
-    
-    }
-    
-    #timer div {
-        /* display: flex; */
-        /* flex-direction: row; */
-        min-width: 90px;
-        padding: 10px;
-        border-radius: 10px;
-        margin: 15px;
-    }
-    
-    #timer div span {
-        color: #daf6ff;
-        text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);    display: block;
-        margin-top: 15px;
-        font-size: .35em;
-        font-weight: 400;
-    }
-  }

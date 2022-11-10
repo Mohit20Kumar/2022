@@ -92,8 +92,9 @@ const Landing = () => {
             </button>
           </a>
         </div>
-        <Timer />
-
+        <div data-aos="fade-up">
+          <Timer />
+        </div>
         <ParticleBackground />
       </div>
     </>
