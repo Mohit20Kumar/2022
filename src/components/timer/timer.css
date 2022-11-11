@@ -37,6 +37,11 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .active h1 {
+    color: #daf6ff;
+    font-size: 2em;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+  }
   #timer {
     display: flex;
     flex-direction: row;
