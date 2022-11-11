@@ -1,16 +1,6 @@
-.inactive {
-  visibility: hidden;
-  opacity: 0;
-  display: block;
-}
-.hidden {
-  visibility: hidden;
-}
 .active {
   visibility: visible;
   opacity: 1;
-  transition: 2s;
-  transition-timing-function: ease-in;
 }
 .active h1 {
   color: #daf6ff;
