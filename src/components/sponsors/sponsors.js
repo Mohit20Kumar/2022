@@ -22,7 +22,7 @@ import duolearn from "../../images/duolearn.png";
 import digital from "../../images/digital.png";
 import cakeview from "../../images/cakeview.png";
 import campalin from "../../images/campalin.png";
-
+import thinkfinity from "../../images/thinkfinity.png";
 export default class Sponsors extends Component {
   render() {
     return (
@@ -181,6 +181,13 @@ export default class Sponsors extends Component {
                   rel="noreferrer"
                 >
                   <img src={swift} className="img" alt="swift Logo" />
+                </a>
+                <a
+                  href="https://thinkfinitylabs.com/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={thinkfinity} className="img" alt="swift Logo" />
                 </a>
               </div>
             </Container>
